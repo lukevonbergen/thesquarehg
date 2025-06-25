@@ -184,23 +184,23 @@ export const siteConfig = {
     title: 'What We’re Known For',
     items: [
       {
-        label: 'Avocado Toast',
-        image: 'https://www.thesquarebucks.com/IMG_3654.jpg',
-      },
-      {
         label: 'Full English',
-        image: 'https://www.thesquarebucks.com/BP8A2551.jpg',
+        image: 'https://static.wixstatic.com/media/18ed9c_ba7e424343b441b391af155a2e160f1e~mv2.jpg/v1/fill/w_667,h_500,al_c,q_80,enc_avif,quality_auto/18ed9c_ba7e424343b441b391af155a2e160f1e~mv2.jpg',
       },
       {
-        label: 'Artisan Pastries',
-        image: 'https://www.thesquarebucks.com/Shop Shelves.jpg',
+        label: 'Brunch',
+        image: 'https://static.wixstatic.com/media/f8c600_ff75acea6b0346db948bca37d6e8f890~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f8c600_ff75acea6b0346db948bca37d6e8f890~mv2.jpg',
       },
       {
-        label: 'Sunday Brunch',
-        image: 'https://www.thesquarebucks.com/Sofas.jpeg',
+        label: 'Evenings',
+        image: 'https://static.wixstatic.com/media/18ed9c_05ab8ba71f75493680220678f0042386~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/18ed9c_05ab8ba71f75493680220678f0042386~mv2.jpg',
+      },
+      {
+        label: 'Cosy Local',
+        image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/5b/f7/1e/the-square.jpg?w=800&h=-1&s=1',
       },
     ],
-    cta: { label: 'View Menu', href: '/menus' },
+    cta: { label: 'View Menu', href: '/menu' },
   },
 
   contact: {
@@ -209,7 +209,7 @@ export const siteConfig = {
       blurb:
         'Questions or group bookings? Send us a message or call—walk-ins always welcome!',
       backgroundImage: {
-        src: 'https://www.thesquarebucks.com/Shop View.jpg',
+        src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/fd/e5/6d/caption.jpg?w=1100&h=-1&s=1',
         alt: 'Exterior view of The Square',
       },
     },
@@ -221,7 +221,7 @@ export const siteConfig = {
       phoneDisplay: '01494 716596',
       email: 'info@thesquarebucks.com',
       image: {
-        src: 'https://www.thesquarebucks.com/IMG_3654.jpg',
+        src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/5b/f7/9e/the-square.jpg?w=800&h=-1&s=1',
         alt: 'Pastries display',
       },
       hours: {
