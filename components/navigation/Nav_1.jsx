@@ -13,13 +13,16 @@ export default function Navbar() {
     <header className="w-full sticky top-0 z-50 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
-          <a href="/" className="flex items-center">
-            <Image
-              src={siteConfig.logo.src}
-              alt={siteConfig.logo.alt}
-              height={siteConfig.logo.height}
-              priority
-            />
+          <a href="/" className="flex items-center" style={{ height: siteConfig.logo.height }}>
+            <div className="relative w-auto aspect-auto" style={{ height: siteConfig.logo.height }}>
+              <Image
+                src={siteConfig.logo.src}
+                alt={siteConfig.logo.alt}
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-gray-700">
             {nav.links.map(link => (
