@@ -13,13 +13,17 @@ export default function Navbar() {
     <header className="w-full sticky top-0 z-50 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
-          <a href="/" className="flex items-center" style={{ height: siteConfig.logo.height }}>
-            <div className="relative w-auto aspect-auto" style={{ height: siteConfig.logo.height }}>
+          <a href="/" className="flex items-center">
+            <div
+              className="relative"
+              style={{ height: siteConfig.logo.height || 40, width: 'auto' }}
+            >
               <Image
                 src={siteConfig.logo.src}
                 alt={siteConfig.logo.alt}
-                fill
-                className="object-contain"
+                height={siteConfig.logo.height}
+                width={0} // Set width=0 to avoid fixed stretching
+                className="h-auto w-auto object-contain"
                 priority
               />
             </div>
