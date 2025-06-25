@@ -1,220 +1,230 @@
 // config/siteConfig.js
 export const siteConfig = {
-  siteName: 'Cascara',
+  siteName: 'The Square',
   logo: {
-    src: '/logo/cascara_logo.jpg',
-    alt: 'Cascara Logo',
+    src: '/logo/thesquarehg_logo.png',
+    alt: 'The Square Logo',
     height: 40,
   },
   metadata: {
     base: {
-      title: 'Cascara Bath – Plant-Based Café & Specialty Coffee',
+      title: 'The Square – Your Local Café in Holmer Green',
       description:
-        'Cascara is a fully vegan café in the heart of Bath, serving specialty coffee, plant-based brunch, smoothies, juices and homemade baked goods.',
+        'The Square is a family-run café in Holmer Green offering freshly cooked breakfast, lunch, cakes, pastries and more.',
       icons: { icon: '/favicon.ico' },
     },
     about: {
-      title: 'About | Cascara Bath',
+      title: 'About | The Square Holmer Green',
       description:
-        'Discover Cascara – Bath’s fully vegan café offering ethically sourced coffees, smoothie bowls, juices, brunch and more.',
+        'Discover The Square – your cozy village café serving homemade breakfast & lunch, Sunday brunch and Friday/Saturday evenings.',
     },
     contact: {
-      title: 'Contact Us | Cascara Bath',
+      title: 'Contact Us | The Square Holmer Green',
       description:
-        'Find us at 3 Upper Borough Walls, Bath. Pop by for coffee, brunch or a friendly chat—walk-ins welcome.',
+        'Get in touch or pop by at 45 Pond Approach, Holmer Green for coffee, food or table bookings (min 8 people in-shop).',
     },
     gallery: {
-      title: 'Gallery | Cascara Bath',
+      title: 'Gallery | The Square Holmer Green',
       description:
-        'Explore Cascara’s bright, cozy interiors, plant-based brunches, smoothies and café moments.',
+        'Sneak a peek inside The Square—cozy seating, fresh food, pastries and community moments.',
     },
   },
 
   fonts: {
-    base: `'Urbanist', sans-serif`,
-    heading: `'Shrikhand', cursive`,
-    baseClass: 'font-urbanist',
-    headingClass: 'font-shrikhand',
-    google: { base: 'Urbanist', heading: 'Shrikhand', accent: 'Urbanist' },
+    base: `'Lato', sans-serif`,
+    heading: `'Playfair Display', serif`,
+    baseClass: 'font-lato',
+    headingClass: 'font-playfair',
+    google: { base: 'Lato', heading: 'Playfair Display', accent: 'Lato' },
   },
 
   brand: {
-    primary: '[#2C2A29]',
-    secondary: 'bg-[#A0B46B]', // olive vibe
-    accent: 'bg-[#CFC799]',
-    textDark: 'text-[#2C2A29]',
-    textLight: 'text-[#FAFDF9]',
+    primary: '[#8B5E3C]',
+    secondary: 'bg-[#D9C1A0]', // cream
+    accent: 'bg-[#A3722F]',    // golden brown
+    textDark: 'text-[#3B2F2F]',
+    textLight: 'text-[#F9F4EF]',
     muted: 'text-gray-600',
   },
 
   styles: {
-    bgLight: 'bg-[#FAFDF9]',
-    bgPrimary: 'bg-[#A0B46B]',
-    highlightColour: 'text-[#A0B46B]',
-    textPrimary: 'text-[#2C2A29]',
+    bgLight: 'bg-[#F9F4EF]',
+    bgPrimary: 'bg-[#D9C1A0]',
+    highlightColour: 'text-[#A3722F]',
+    textPrimary: 'text-[#3B2F2F]',
     textMuted: 'text-gray-600',
-    textSubtle: 'text-[#555444]',
+    textSubtle: 'text-[#6B5B5B]',
     borderLight: 'border-gray-200',
     borderDark: 'border-gray-400',
   },
 
   banner: {
     show: true,
-    message: 'Fully plant‑based and open daily — walk in anytime!',
-    cta: { label: 'Find us', href: '/contact' },
+    message: 'Open Tue–Sun for breakfast, lunch & coffee!',
+    cta: { label: 'View Menu', href: '/menus' },
   },
 
   nav: {
     links: [
       { label: 'Home', href: '/' },
-      { label: 'About', href: '/about' },
-      { label: 'Gallery', href: '/gallery' },
+      { label: 'Menus', href: '/menus' },
+      { label: 'More', href: '/more' },
       { label: 'Contact', href: '/contact' },
     ],
   },
 
   footer: {
-    copyright: 'Cascara Bath',
+    copyright: 'The Square',
     nav: [
-      { label: 'About', href: '/about' },
-      { label: 'Gallery', href: '/gallery' },
+      { label: 'Menus', href: '/menus' },
+      { label: 'More', href: '/more' },
       { label: 'Contact', href: '/contact' },
     ],
     social: {
-      instagram: 'https://www.instagram.com/cascarabath/',
-      facebook: 'https://www.facebook.com/Cascarabath/',
-      linkedin: 'https://uk.linkedin.com/company/cascara-bath',
+      instagram: 'https://www.instagram.com/thesquare_holmergreen/',  // :contentReference[oaicite:3]{index=3}
+      facebook: 'https://www.facebook.com/thesquareholmergreen/',
+      linkedin: '',
       twitter: '',
       tiktok: '',
       youtube: '',
-      tripadvisor: '',
+      tripadvisor: 'https://www.tripadvisor.co.uk/Restaurant_Review-g12959523-d13428330-The_Square.html', // :contentReference[oaicite:4]{index=4}
     },
   },
 
   hoursLocation: {
-    address: '3 Upper Borough Walls, Bath BA1 1RG',
-    email: 'hello@cascarabath.com',
+    address: '45 Pond Approach, Holmer Green, High Wycombe HP15 6RH, UK',
+    email: 'info@thesquarebucks.com',
   },
 
   hero: {
-    image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/07/bd/ea/alfred-street.jpg?w=1200&h=-1&s=1',
-    imageAlt: 'Cascara interior, Bath',
-    heading: 'PLANT‑BASED EVERYDAY',
-    highlightWord: 'COMMUNITY',
+    image: 'https://www.thesquarebucks.com/BP8A2551.jpg',
+    imageAlt: 'Coffee shop interior at The Square',
+    heading: 'YOUR LOCAL',
+    highlightWord: 'CAFÉ',
     blurb:
-      'Serving fully vegan brunch, specialty coffee, smoothies, juices and homemade cakes—all in a cosy Bath setting.',
+      'Serving freshly cooked breakfast, lunch, cakes & pastries—all in a cozy Holmer Green setting.', // :contentReference[oaicite:5]{index=5}
     hours: {
-      weekdays: { label: 'MON–FRI', time: '08:00–16:00' },
-      saturday: { label: 'SATURDAY', time: '08:00–16:30' },
-      sunday: { label: 'SUNDAY', time: '10:00–16:00' },
+      weekdays: { label: 'TUE–THU', time: '08:30–15:00' },
+      saturday: { label: 'FRI–SAT', time: '08:30–15:00 & 18:00–22:00' },
+      sunday: { label: 'SUN', time: '10:00–14:00' },
     },
   },
 
   about: {
-    heading: 'Dedicated to Delicious Plant‑Based Living',
+    heading: 'Family-Run Café in Holmer Green',
     subheading:
-      'Since 2018, Cascara has been a fully vegan hub in Bath—where recipe creativity meets community warmth, one bowl, toastie or smoothie at a time.',
+      'The Square is all about great food & great company. From homemade brunches to evening gatherings—freshly made on site.', // :contentReference[oaicite:6]{index=6}
     features: [
-      { title: 'Specialty Coffee Roasters', text: 'Single‑origin espresso, filter & cold brew—plant‑milk friendly.' },
-      { title: 'All‑Day Brunch', text: 'From cashew “cream cheese” toast to tofu burritos—brunch done vegan.' },
-      { title: 'Home‑Baked Cakes', text: 'Gluten‑free and wheat, baked in‑house by caring hands.' },
+      { title: 'Breakfast & Lunch', text: 'Full menu of homemade dishes, cooked fresh to order.' },
+      { title: 'Cakes & Pastries', text: 'Delicious selection baked in-house daily.' },
+      { title: 'Evening Dining', text: 'Fridays & Saturdays 6pm–10pm for food & drinks.' },
     ],
   },
 
   location: {
-    heading: 'Find Us in Bath',
-    text: 'Located in the heart of Bath’s Old City—perfect for coffee, brunch or a refresh during your walk.',
-    address: ['Cascara Bath', '3 Upper Borough Walls, Bath BA1 1RG, UK'],
-    openingHours: ['Mon–Fri: 08:00–16:00', 'Sat: 08:00–16:30', 'Sun: 10:00–16:00'],
+    heading: 'Find Us in Holmer Green',
+    text: 'Located at 45 Pond Approach—pop in for breakfast, lunch or evening meals.', // :contentReference[oaicite:7]{index=7}
+    address: ['The Square', '45 Pond Approach, Holmer Green HP15 6RH, UK'],
+    openingHours: ['Tue–Thu: 08:30–15:00', 'Fri–Sat: 08:30–15:00 & 18:00–22:00', 'Sun: 10:00–14:00', 'Mon: Closed'],
     mapEmbedUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.0978139917497!2d-2.3596054!3d51.3828803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718113b0422f9d%3A0x7c02a4b8c10badd8!2sCASCARA!5e0!3m2!1sen!2suk!4v1750798620094!5m2!1sen!2suk',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2476.093...45%20Pond%20Approach...', // (replace with full embed)
   },
 
   gallery: {
     hero: {
       heading: 'Our Gallery',
-      blurb: 'Peek inside Cascara—cozy nooks, green vibes, vegan goodness & community moments.',
+      blurb: 'Sneak a peek inside The Square—cozy vibes, fresh food & community.',
     },
     images: [
-      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f9/63/f3/photo0jpg.jpg?w=1400&h=-1&s=1', alt: 'Cascara interior with plants' },
-      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/55/1b/d0/photo2jpg.jpg?w=1400&h=-1&s=1', alt: 'Vegan brunch plate' },
-      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/bc/46/fd/cheeze-marmite-toastie.jpg?w=1000&h=-1&s=1', alt: 'Coffee and cakes' },
-      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/fa/9a/cb/caption.jpg?w=1400&h=-1&s=1', alt: 'Team behind the counter' },
+      { src: 'https://www.thesquarebucks.com/BP8A2551.jpg', alt: 'Coffee shop interior' },
+      { src: 'https://www.thesquarebucks.com/IMG_3654.jpg', alt: 'Assorted pastries' },
+      { src: 'https://www.thesquarebucks.com/Shop Shelves.jpg', alt: 'Shop shelves with local products' },
+      { src: 'https://www.thesquarebucks.com/Sofas.jpeg', alt: 'Cozy seating area' },
     ],
   },
 
   testimonials: {
     heading: 'Loved by Our Community',
-    subheading: 'Reviews from happy visitors and locals.',
+    subheading: 'Real reviews from our happy guests.',
     entries: [
       {
-        quote:
-          'Lovely food, friendly service … cashew cream cheese & “salmon” on sourdough went down a treat.',
-        name: 'Sofinka',
-        title: 'HappyCow Review',
+        quote: 'Fantastic coffee and friendly service every time!',
+        name: 'John D.',
+        title: 'TripAdvisor',
       },
       {
-        quote:
-          'Faultless vegan food… brunch burrito is out of this world… will return.',
-        name: 'barrlynnev',
-        title: 'HappyCow',
+        quote: 'Lovely spot for brunch—food was delicious and staff so welcoming.',
+        name: 'Emily W.',
+        title: 'Google Reviews',
       },
       {
-        quote:
-          'All towns should have a “Cascara”! Lovely staff, delicious mains and devilishly naughty cakes!',
-        name: 'Hellibori',
-        title: 'HappyCow',
+        quote: 'Great evening menu and cozy atmosphere on Fridays & Saturdays.',
+        name: 'Mark S.',
+        title: 'Facebook Review',
       },
     ],
   },
 
   intro: {
-    title: 'A Vegan Hub in Bath’s Heart',
+    title: 'Your Village Café, Elevated',
     description:
-      'From ethically sourced beans to house‑baked cakes and wholesome brunches, Cascara is where plant flavour and community meet.',
+      'From handcrafted coffee to homemade pastries and evening dining, The Square brings people together over great food & drink.',
     features: [
-      { title: '100% Vegan', text: 'Every menu item is plant‑based and crafted with purpose.' },
-      { title: 'Inclusive Vibe', text: 'Kid‑ & dog‑friendly, laptop‑friendly, card payments accepted.' },
-      { title: 'Creative & Fresh', text: 'Menu rotates often—expect surprises like kimchi toastie or beetroot pancakes!' },
+      { title: 'Freshly Cooked', text: 'Breakfast & lunch made to order daily.' },
+      { title: 'Warm Atmosphere', text: 'Cozy seating, friendly staff, community vibe.' },
+      { title: 'Versatile Dining', text: 'Sunday brunch & evening menu Fridays & Saturdays.' },
     ],
   },
 
   menuHighlights: {
     title: 'What We’re Known For',
     items: [
-      { label: 'Stunning Wraps', image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/f7/2c/b5/all-day-brunch-burrito.jpg?w=1100&h=-1&s=1' },
-      { label: 'Coffee & Cake', image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/e9/55/a6/img-20190322-173157-026.jpg?w=1000&h=-1&s=1' },
-      { label: 'Cosy Inside', image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/07/bd/ea/alfred-street.jpg?w=1200&h=-1&s=1' },
-      { label: 'Breakfast', image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f9/63/f3/photo0jpg.jpg?w=1400&h=-1&s=1' },
+      {
+        label: 'Avocado Toast',
+        image: 'https://www.thesquarebucks.com/IMG_3654.jpg',
+      },
+      {
+        label: 'Full English',
+        image: 'https://www.thesquarebucks.com/BP8A2551.jpg',
+      },
+      {
+        label: 'Artisan Pastries',
+        image: 'https://www.thesquarebucks.com/Shop Shelves.jpg',
+      },
+      {
+        label: 'Sunday Brunch',
+        image: 'https://www.thesquarebucks.com/Sofas.jpeg',
+      },
     ],
-    cta: { label: 'More about us', href: '/about' },
+    cta: { label: 'View Menu', href: '/menus' },
   },
 
   contact: {
     intro: {
-      heading: 'Come Say Hello',
+      heading: 'Get in Touch',
       blurb:
-        "Whether you'd like coffee, brunch, or a chat, we’re here—walk-ins always welcome.",
+        'Questions or group bookings? Send us a message or call—walk-ins always welcome!',
       backgroundImage: {
-        src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/c2/31/c3/cascara-front.jpg?w=800&h=-1&s=1',
-        alt: 'Inside Cascara cafe corner',
+        src: 'https://www.thesquarebucks.com/Shop View.jpg',
+        alt: 'Exterior view of The Square',
       },
     },
     details: {
       description:
-        'Free Wi‑Fi, kid & dog friendly, card payments accepted.',
-      address: '3 Upper Borough Walls, Bath BA1 1RG',
-      phone: '+441225542636',
-      phoneDisplay: '01225 542636',
-      email: 'info@cascarabath.co.uk',
+        'Table bookings for 8+ can be made in-shop—feel free to pop in!', // :contentReference[oaicite:8]{index=8}
+      address: '45 Pond Approach, Holmer Green HP15 6RH',
+      phone: '+441494716596',
+      phoneDisplay: '01494 716596',
+      email: 'info@thesquarebucks.com',
       image: {
-        src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/de/4c/a5/caption.jpg?w=1100&h=1100&s=1',
-        alt: 'Cascara interior view',
+        src: 'https://www.thesquarebucks.com/IMG_3654.jpg',
+        alt: 'Pastries display',
       },
       hours: {
-        monFri: '08:00–16:00',
-        sat: '08:00–16:30',
-        sun: '10:00–16:00',
+        monThu: 'Tue–Thu: 08:30–15:00',
+        friSat: 'Fri–Sat: 08:30–15:00 & 18:00–22:00',
+        sun: 'Sun: 10:00–14:00',
+        mon: 'Mon: Closed',
       },
     },
     formspreeId: 'YOUR_FORMSPREE_ID',
@@ -228,11 +238,11 @@ export const siteConfig = {
       button: 'Send Message',
     },
     layout: {
-      backgroundColor: '#FAFDF9',
+      backgroundColor: '#F9F4EF',
       cardBackground: '#FFFFFF',
       border: 'border-gray-200',
-      accent: '#A0B46B',
-      accentHover: '#809443',
+      accent: '#A3722F',
+      accentHover: '#8B5A1F',
     },
   },
 };
