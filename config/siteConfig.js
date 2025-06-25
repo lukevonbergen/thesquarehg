@@ -13,6 +13,10 @@ export const siteConfig = {
         'The Square is a family-run café in Holmer Green offering freshly cooked breakfast, lunch, cakes, pastries and more.',
       icons: { icon: '/favicon.ico' },
     },
+    menu: {
+      title: 'Menus | The Square Holmer Green',
+      description: 'Explore our brunch, lunch and takeaway menus. Freshly made, locally loved.',
+    },
     about: {
       title: 'About | The Square Holmer Green',
       description:
@@ -61,14 +65,14 @@ export const siteConfig = {
   banner: {
     show: true,
     message: 'Open Tue–Sun for breakfast, lunch & coffee!',
-    cta: { label: 'View Menu', href: '/menus' },
+    cta: { label: 'View Menu', href: '/menu' },
   },
 
   nav: {
     links: [
       { label: 'Home', href: '/' },
-      { label: 'Menus', href: '/menus' },
-      { label: 'More', href: '/more' },
+      { label: 'About', href: '/about' },
+      { label: 'Menu', href: '/menu' },
       { label: 'Contact', href: '/contact' },
     ],
   },
@@ -76,8 +80,8 @@ export const siteConfig = {
   footer: {
     copyright: 'The Square',
     nav: [
-      { label: 'Menus', href: '/menus' },
-      { label: 'More', href: '/more' },
+      { label: 'About', href: '/about' },
+      { label: 'Menu', href: '/menu' },
       { label: 'Contact', href: '/contact' },
     ],
     social: {
@@ -249,4 +253,374 @@ export const siteConfig = {
   theme: {
     variable: '#000000', // fallback value
   },
+
+  menu: {
+  intro: {
+    heading: 'Menus',
+    subheading: 'Please see our Day Menu and Sunday Brunch Menu',
+  },
+  menus: [
+    {
+      title: 'Sunday Brunch Menu',
+      sections: [
+        {
+          title: 'Cooked Breakfasts',
+          items: [
+            {
+              name: 'The Square Big Breakfast',
+              price: '£14.50',
+              description:
+                'Cumberland sausages, back bacon, black pudding, hash browns, mushrooms, tomato, baked beans and 2 eggs (served with toast & butter)',
+            },
+            {
+              name: 'The Square Big Veggie Breakfast',
+              price: '£13.50',
+              description:
+                '‘Symplicity’ sausages, halloumi, hash browns, mushrooms, spinach, tomato, baked beans and eggs (served with toast & butter)',
+            },
+            {
+              name: 'Your Breakfast Your Way',
+              price: '£11.50',
+              description:
+                'Choose 5 of the following: sausage, bacon, black pudding, hash brown (vg), mushrooms (vg), baked beans (vg), halloumi (v), spinach (v), tomato (vg) or egg (v) (served with toast & butter)',
+            },
+          ],
+        },
+        {
+          title: 'Breakfast Sandwich & Bagels',
+          items: [
+            {
+              name: 'Breakfast Sandwich',
+              price: 'From £7.00',
+              description:
+                'Choose 1 (£7), 2 (£7.50), or 3 (£8.50) items: sausage, bacon, black pudding, hash brown, mushrooms, baked beans, halloumi, spinach, tomato, egg',
+            },
+            {
+              name: 'Breakfast Bagels',
+              price: 'From £8.00',
+              description:
+                'Various options incl. Sausage, Bacon, Cheese & Egg (£9), Smoked Salmon & Avocado (£11), and more',
+            },
+          ],
+        },
+        {
+          title: 'On Sourdough',
+          items: [
+            { name: 'Chorizo Baked Beans & Red Leicester', price: '£8.50' },
+            { name: 'Smoked Salmon & Scrambled Eggs', price: '£12.50' },
+            { name: 'Smashed Avocado & Poached Eggs (vg)', price: '£9.00' },
+            { name: 'Creamy Marmite Mushrooms (vg)', price: '£8.50' },
+            { name: 'Just Eggs (v)', price: '£5.00' },
+            {
+              name: 'Heirloom Tomatoes, Plant N’Duja & Avocado',
+              price: '£8.50',
+            },
+          ],
+        },
+        {
+          title: 'Toast and Grains',
+          items: [
+            { name: 'Buttered Toast', price: '£2.00' },
+            { name: 'Toasted Sourdough Crumpets', price: '£3.00' },
+            {
+              name: 'Porridge (vg, vga)',
+              price: '£5.00',
+              description: 'Choice of: berry compote, jam, honey or golden syrup',
+            },
+            {
+              name: 'Granola with Yoghurt & Blueberries',
+              price: '£5.00',
+              description: 'Almond & raisin granola with honeyed yoghurt',
+            },
+            {
+              name: 'Extras',
+              price: '£0.75',
+              description: 'Add jam, marmalade, Nutella or Marmite',
+            },
+          ],
+        },
+        {
+          title: 'Eggs on Muffins',
+          items: [
+            { name: 'Eggs Benedict', price: '£11.00' },
+            { name: 'Eggs Royale', price: '£12.50' },
+            { name: 'Eggs Florentine', price: '£10.00' },
+            { name: 'Eggs Boudin Noir', price: '£10.50' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'All Day Breakfast Menu',
+      sections: [
+        // Same as Sunday Brunch above, reuse if needed
+      ],
+    },
+    {
+      title: 'Lunch Menu',
+      subtitle: 'From 12pm',
+      sections: [
+        {
+          title: 'Classic Sandwiches',
+          items: [
+            { name: 'BLT', price: '£7.00' },
+            { name: 'Egg Mayo (v)', price: '£6.00' },
+            { name: 'Ham & Coleslaw', price: '£7.00' },
+            { name: 'Tuna Mayo', price: '£6.50' },
+            { name: 'Ham & Piccalilli', price: '£7.00' },
+          ],
+        },
+        {
+          title: 'Premium Sandwiches',
+          items: [
+            {
+              name: 'Tuna Mayo, Avocado, Sriracha & Red Onion',
+              price: '£8.00',
+            },
+            {
+              name: 'Smoked Salmon, Cucumber & Dill Cream Cheese',
+              price: '£8.50',
+            },
+            {
+              name: 'Chicken, Bacon, Avocado & Ranch',
+              price: '£7.50',
+            },
+            {
+              name: 'Smoked Coronation Tofu & Chickpeas (vg)',
+              price: '£7.50',
+            },
+          ],
+        },
+        {
+          title: 'Sourdough Toasties',
+          items: [
+            { name: 'Classic Cheese', price: '£6.00' },
+            { name: 'Ham & Mature Cheddar', price: '£7.00' },
+            { name: 'Bacon, Brie & Cranberry', price: '£7.50' },
+            { name: 'Tuna Melt', price: '£7.00' },
+          ],
+        },
+        {
+          title: 'Snacks and Light Bites',
+          items: [
+            {
+              name: 'Soup of the Day',
+              price: '£7.00',
+              description: 'Served with chunky bread (v)',
+            },
+            { name: 'Chips', price: '£4.00' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Takeaway Menu',
+      sections: [
+        // Same as Lunch Menu
+      ],
+    },
+    {
+      title: 'Pancake Stacks',
+      sections: [
+        {
+          title: 'Sweet Pancakes',
+          items: [
+            { name: 'Just Syrup', price: '£6.75' },
+            {
+              name: 'Streaky Bacon, Maple Syrup & Butter',
+              price: '£7.50',
+            },
+            {
+              name: 'Blueberries, Honeyed Yoghurt & Granola',
+              price: '£8.00',
+            },
+          ],
+        },
+      ],
+    },
+  ],
+},
+menu: {
+  intro: {
+    heading: 'Menus',
+    subheading: 'Please see our Day Menu and Sunday Brunch Menu',
+  },
+  menus: [
+    {
+      title: 'Sunday Brunch Menu',
+      sections: [
+        {
+          title: 'Cooked Breakfasts',
+          items: [
+            {
+              name: 'The Square Big Breakfast',
+              price: '£14.50',
+              description:
+                'Cumberland sausages, back bacon, black pudding, hash browns, mushrooms, tomato, baked beans and 2 eggs (served with toast & butter)',
+            },
+            {
+              name: 'The Square Big Veggie Breakfast',
+              price: '£13.50',
+              description:
+                '‘Symplicity’ sausages, halloumi, hash browns, mushrooms, spinach, tomato, baked beans and eggs (served with toast & butter)',
+            },
+            {
+              name: 'Your Breakfast Your Way',
+              price: '£11.50',
+              description:
+                'Choose 5 of the following: sausage, bacon, black pudding, hash brown (vg), mushrooms (vg), baked beans (vg), halloumi (v), spinach (v), tomato (vg) or egg (v) (served with toast & butter)',
+            },
+          ],
+        },
+        {
+          title: 'Breakfast Sandwich & Bagels',
+          items: [
+            {
+              name: 'Breakfast Sandwich',
+              price: 'From £7.00',
+              description:
+                'Choose 1 (£7), 2 (£7.50), or 3 (£8.50) items: sausage, bacon, black pudding, hash brown, mushrooms, baked beans, halloumi, spinach, tomato, egg',
+            },
+            {
+              name: 'Breakfast Bagels',
+              price: 'From £8.00',
+              description:
+                'Sausage, Bacon, Cheese & Fried Egg (£9.00), Smoked Salmon & Smashed Avocado (£11.00), Streaky Bacon, Cheese, Hollandaise & Fried Egg (£8.50), Flat Mushrooms, Cheese, Hollandaise & Fried Egg (£8.00)',
+            },
+          ],
+        },
+        {
+          title: 'On Sourdough',
+          items: [
+            { name: 'Chorizo Baked Beans & Red Leicester', price: '£8.50' },
+            { name: 'Smoked Salmon & Scrambled Eggs', price: '£12.50' },
+            { name: 'Smashed Avocado & Poached Eggs (vg)', price: '£9.00' },
+            { name: 'Creamy Marmite Mushrooms (vg)', price: '£8.50' },
+            { name: 'Just Eggs (v)', price: '£5.00' },
+            {
+              name: 'Heirloom Tomatoes, Plant N’Duja & Avocado',
+              price: '£8.50',
+            },
+          ],
+        },
+        {
+          title: 'Toast and Grains',
+          items: [
+            { name: 'Buttered Toast', price: '£2.00' },
+            { name: 'Toasted Sourdough Crumpets', price: '£3.00' },
+            {
+              name: 'Porridge (vg, vga)',
+              price: '£5.00',
+              description:
+                'Choice of: berry compote, jam, honey or golden syrup',
+            },
+            {
+              name: 'Granola with Yoghurt & Blueberries',
+              price: '£5.00',
+              description: 'Almond & raisin granola with honeyed yoghurt',
+            },
+            {
+              name: 'Extras',
+              price: '£0.75',
+              description: 'Add jam, marmalade, Nutella or Marmite',
+            },
+          ],
+        },
+        {
+          title: 'Eggs on Muffins',
+          items: [
+            { name: 'Eggs Benedict', price: '£11.00' },
+            { name: 'Eggs Royale', price: '£12.50' },
+            { name: 'Eggs Florentine', price: '£10.00' },
+            { name: 'Eggs Boudin Noir', price: '£10.50' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'All Day Breakfast Menu',
+      sections: [], // Will be filled with Sunday Brunch structure below
+    },
+    {
+      title: 'Lunch Menu',
+      subtitle: 'From 12pm',
+      sections: [
+        {
+          title: 'Classic Sandwiches',
+          items: [
+            { name: 'BLT', price: '£7.00' },
+            { name: 'Egg Mayo (v)', price: '£6.00' },
+            { name: 'Ham & Coleslaw', price: '£7.00' },
+            { name: 'Tuna Mayo', price: '£6.50' },
+            { name: 'Ham & Piccalilli', price: '£7.00' },
+          ],
+        },
+        {
+          title: 'Premium Sandwiches',
+          items: [
+            {
+              name: 'Tuna Mayo, Avocado, Sriracha & Red Onion',
+              price: '£8.00',
+            },
+            {
+              name: 'Smoked Salmon, Cucumber & Dill Cream Cheese',
+              price: '£8.50',
+            },
+            {
+              name: 'Chicken, Bacon, Avocado & Ranch',
+              price: '£7.50',
+            },
+            {
+              name: 'Smoked Coronation Tofu & Chickpeas (vg)',
+              price: '£7.50',
+            },
+          ],
+        },
+        {
+          title: 'Sourdough Toasties',
+          items: [
+            { name: 'Classic Cheese', price: '£6.00' },
+            { name: 'Ham & Mature Cheddar', price: '£7.00' },
+            { name: 'Streaky Bacon, Brie & Cranberry', price: '£7.50' },
+            { name: 'Tuna Melt', price: '£7.00' },
+          ],
+        },
+        {
+          title: 'Snacks and Light Bites',
+          items: [
+            {
+              name: 'Soup of the Day',
+              price: '£7.00',
+              description: 'Served with chunky bread (v)',
+            },
+            { name: 'Chips', price: '£4.00' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Takeaway Menu',
+      sections: [], // Will be filled with Lunch structure below
+    },
+    {
+      title: 'Pancake Stacks',
+      sections: [
+        {
+          title: 'Sweet Pancakes',
+          items: [
+            { name: 'Just Syrup', price: '£6.75' },
+            {
+              name: 'Streaky Bacon, Maple Syrup & Butter',
+              price: '£7.50',
+            },
+            {
+              name: 'Blueberries, Honeyed Yoghurt & Granola',
+              price: '£8.00',
+            },
+          ],
+        },
+      ],
+    },
+  ],
+},
 };
