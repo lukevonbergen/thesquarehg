@@ -245,4 +245,8 @@ export const siteConfig = {
       accentHover: '#8B5A1F',
     },
   },
+
+  theme: {
+    variable: '#000000', // fallback value
+  },
 };
