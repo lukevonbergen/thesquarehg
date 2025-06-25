@@ -14,15 +14,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <a href="/" className="flex items-center">
-            <div className="relative" style={{ height: '32px' }}>
-              <Image
-                src={siteConfig.logo.src}
-                alt={siteConfig.logo.alt}
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
+            <Image
+              src={siteConfig.logo.src}
+              alt={siteConfig.logo.alt}
+              height={32}
+              width={120} // approximate width to preserve aspect ratio
+              className="object-contain h-8 w-auto"
+              priority
+            />
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-gray-700">
             {nav.links.map(link => (
@@ -32,6 +31,7 @@ export default function Navbar() {
             ))}
           </nav>
         </div>
+
         <div className="hidden md:block">
           <a
             href="/contact"
@@ -40,6 +40,7 @@ export default function Navbar() {
             Contact
           </a>
         </div>
+
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
