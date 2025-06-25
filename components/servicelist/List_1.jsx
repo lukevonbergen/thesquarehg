@@ -8,8 +8,6 @@ export default function MenuDisplay() {
   return (
     <section className="bg-white py-24 px-6 md:px-12 border-t border-gray-100">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4 tracking-tight">{intro.heading}</h2>
-        <p className="text-lg text-gray-600 mb-12">{intro.subheading}</p>
 
         <div className="space-y-16 text-left">
           {menus.map((menu) => (
