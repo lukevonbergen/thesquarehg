@@ -97,7 +97,7 @@ export const siteConfig = {
   },
 
   hero: {
-    image: 'https://www.thesquarebucks.com/BP8A2551.jpg',
+    image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/90/0f/60/photo0jpg.jpg?w=1400&h=-1&s=1',
     imageAlt: 'Coffee shop interior at The Square',
     heading: 'YOUR LOCAL',
     highlightWord: 'CAFÉ',
@@ -127,7 +127,7 @@ export const siteConfig = {
     address: ['The Square', '45 Pond Approach, Holmer Green HP15 6RH, UK'],
     openingHours: ['Tue–Thu: 08:30–15:00', 'Fri–Sat: 08:30–15:00 & 18:00–22:00', 'Sun: 10:00–14:00', 'Mon: Closed'],
     mapEmbedUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2476.093...45%20Pond%20Approach...', // (replace with full embed)
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2474.740125104473!2d-0.6973943228512547!3d51.664594271849566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766094092f17e9%3A0xc289ebc3fd48445a!2sThe%20Square!5e0!3m2!1sen!2suk!4v1750855972573!5m2!1sen!2suk', // (replace with full embed)
   },
 
   gallery: {
