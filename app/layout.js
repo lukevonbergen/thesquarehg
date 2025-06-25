@@ -34,9 +34,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`
-          ${baseFont.variable}
-          ${headingFont.variable}
-          ${accentFont ? accentFont.variable : ''}
+          ${baseFont?.variable ?? ''}
+          ${headingFont?.variable ?? ''}
+          ${accentFont?.variable ?? ''}
           ${siteConfig.fonts.baseClass}
           antialiased
         `}
