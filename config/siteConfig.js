@@ -4,7 +4,7 @@ export const siteConfig = {
   logo: {
     src: '/logo/thesquarehg_logo.png',
     alt: 'The Square Logo',
-    height: 40,
+    height: 25,
   },
   metadata: {
     base: {

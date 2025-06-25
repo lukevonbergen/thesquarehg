@@ -4,7 +4,7 @@ export default function Testimonials() {
   const { heading, subheading, entries } = siteConfig.testimonials;
 
   return (
-    <section className={`py-24 px-6 md:px-12 border-t ${siteConfig.styles.borderLight}`}>
+    <section className="py-24 px-6 md:px-12">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className={`text-3xl md:text-4xl font-bold mb-4 tracking-tight ${siteConfig.styles.textPrimary}`}>
           {heading}

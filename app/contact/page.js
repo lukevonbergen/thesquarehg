@@ -56,12 +56,12 @@ export default function ContactPage() {
           </div>
 
           {/* Image */}
-          <div>
+          <div className="relative w-full h-[300px] md:h-[400px]">
             <Image
               src={details.image.src}
               alt={details.image.alt}
-              width={600}
-              height={400}
+              fill
+              sizes="(min-width: 768px) 100vw, 100vw"
               className="rounded-xl shadow-md object-cover"
             />
           </div>
